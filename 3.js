@@ -6,3 +6,9 @@ js
 const stuff = ['Meja', 'Buku', 'Topi', 'Baju', 'Kayu']
 
  */
+
+const stuff = ['Meja', 'Buku', 'Topi', 'Baju', 'Kayu']
+const add = stuff.unshift('Handuk') && stuff.push('Celana');
+
+console.log(stuff);
+console.log(add);
